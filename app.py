@@ -136,8 +136,6 @@ def home():
 
         #db.session.add(lecture_db)
     #db.session.commit()
-
-
     return 'hello'
 
 @app.route('/<areas>', methods=['GET'])
