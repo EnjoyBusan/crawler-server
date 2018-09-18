@@ -1,0 +1,6 @@
+---
+applications:
+- name: crawling
+  buildpack: python_buildpack
+  memory: 256M
+  instances: 1
